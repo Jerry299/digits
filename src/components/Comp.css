@@ -1,0 +1,511 @@
+/* this is a global css file for all components in the components folder under src */
+
+nav {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+nav li {
+  list-style-type: none;
+}
+nav li a {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  width: 80%;
+  margin-right: 100px;
+}
+.nav-items ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-brand {
+  width: 19%;
+  margin-left: 10%;
+}
+.nav-contact {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-right: 70px;
+}
+.nav-contact button {
+  background: #3751ff;
+  border-radius: 100px;
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  /*  border-width: 2px;
+  border-color: white;
+  border-style: solid; */
+
+  border: none;
+}
+
+/* .nav-brand {
+ 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30.9562px;
+  line-height: 100%;
+   color: #1e266d;
+  
+ 
+} */
+/* or 31px */
+/* END OF NAV*/
+/*BEGINNING OF MAINPAGE*/
+.mainpage-wrapper {
+  width: 1600px;
+  height: 878px;
+
+  position: relative;
+  color: #1e266d;
+}
+.texts-wrapper {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 249, 255, 0.12) 0%,
+    #f2f9ff 100%
+  );
+  height: 732px;
+}
+.text-btn {
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+}
+.text-btn .blue-btn {
+  background: #3751ff;
+  border-radius: 100px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: #fff;
+  width: 7rem;
+}
+.text-btn .white-btn {
+  background: #fff;
+  border-radius: 100px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  color: #455880;
+  width: 7.8rem;
+}
+.mainpage-wrapper .bg {
+  height: 400px;
+  background-size: cover;
+  width: 690px;
+  position: absolute;
+  top: 400px;
+  left: 378px;
+}
+.teams {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0px 210px;
+}
+.teams .team {
+  margin-top: 20px;
+}
+.teams-text {
+  text-align: center;
+  font-weight: 600;
+  color: rgba(69, 88, 128, 0.5);
+}
+.about-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* style={{ width: "500px" }} */
+.about-wrapper {
+  margin-top: 70px;
+  /* background: #e5e5e5; */
+  margin-bottom: 70px;
+}
+
+.about-text p {
+  flex-basis: 500px;
+  font-weight: 500;
+  line-height: 60px;
+  color: #1e266d;
+}
+.about-desc {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.desc-imgs {
+  position: relative;
+}
+.desc-imgs .div4 {
+  position: absolute;
+  left: 450px;
+  top: 40px;
+}
+.div4 p {
+  position: absolute;
+  top: 50px;
+  border-radius: 4px;
+}
+.div4 #p1 {
+  position: absolute;
+  top: -100px;
+  z-index: 2;
+}
+.desc-imgs .div3 {
+  position: absolute;
+  top: 250px;
+  left: 250px;
+  z-index: 20;
+}
+.div3 img {
+  position: absolute;
+  top: 10px;
+  left: 34px;
+
+  height: 260px;
+}
+.div3 p {
+  background-color: #fed892;
+  width: 270px;
+  height: 255px;
+  border-radius: 4px;
+}
+.desc-imgs .div2 {
+  position: absolute;
+  top: 370px;
+  left: 490px;
+  z-index: 30;
+}
+.div2 p {
+  width: 180px;
+  height: 220px;
+  background: #f47b9e;
+  border-radius: 4px;
+}
+.div2 #p3 {
+  position: absolute;
+  top: 3px;
+  height: 233px;
+}
+
+.desc-texts {
+  margin-top: 110px;
+  margin-left: 30px;
+}
+.desc-texts header {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 125%;
+  /* or 27px */
+
+  color: #1e266d;
+}
+.txt {
+  margin-left: 50px;
+}
+.txt p {
+  width: 50%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 150% */
+
+  color: #455880;
+}
+.desc-texts hr {
+  border-bottom: 1px solid rgba(69, 88, 128, 0.2);
+  width: 80%;
+  margin-right: 120px;
+  margin-bottom: 20px;
+}
+.portfolio-wrapper {
+  background: #fff9ea;
+  height: 1070px;
+}
+.portfolio-texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 139px 0px 37px 0px;
+}
+.portfolio-texts h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  color: #1e266d;
+}
+.portfolio-texts p {
+  width: 27%;
+  padding-bottom: 20px;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 150%;
+  /* or 31px */
+
+  text-align: center;
+
+  color: #455880;
+}
+.portfolio-texts button {
+  background: #3751ff;
+  border-radius: 100px;
+  color: #fff;
+  text-align: center;
+  width: 9%;
+  /*  border-width: 2px;
+  border-color: white;
+  border-style: solid; */
+
+  border: none;
+  padding: 10px;
+}
+.portfolio-imgs .img img {
+  width: 300px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+/* styling individual img to suite design */
+.portfolio-imgs .first5 .img2 {
+  position: absolute;
+  top: 120px;
+  left: 270px;
+}
+.portfolio-imgs .first5 .img11 {
+  position: absolute;
+  top: 180px;
+  left: 540px;
+}
+.portfolio-imgs .first5 .img3 {
+  position: absolute;
+  top: 228px;
+  left: 814px;
+}
+.portfolio-imgs .first5 .img4 {
+  position: absolute;
+  top: 55px;
+  left: 1090px;
+}
+.portfolio-imgs .second5 .img5 {
+  position: absolute;
+  top: 5px;
+}
+.portfolio-imgs .second5 .img6 {
+  position: absolute;
+  top: 130px;
+  left: 270px;
+}
+.portfolio-imgs .second5 .img7 {
+  position: absolute;
+  top: 177px;
+  left: 540px;
+}
+.portfolio-imgs .second5 .img8 {
+  position: absolute;
+  top: 224px;
+  left: 814px;
+}
+.portfolio-imgs .second5 .img9 {
+  position: absolute;
+  top: 75px;
+  left: 1090px;
+}
+.portfolio-imgs .img10 {
+  position: absolute;
+  top: 490px;
+}
+
+/* styling individual img to suite design ends here*/
+
+.portfolio-imgs .first5 {
+  display: flex;
+  position: relative;
+  padding: 0px;
+}
+.portfolio-imgs .second5 {
+  display: flex;
+  position: relative;
+  margin-top: -10px;
+}
+.portfolio-imgs {
+  position: relative;
+}
+/* Testimony styling */
+.testimony-header {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+
+  color: #1e266d;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+.testimony {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  margin-left: 25%;
+}
+.person-testimony img {
+  margin-left: 30px;
+}
+.person-testimony figcaption {
+  font-size: small;
+  text-align: center;
+
+  line-height: 180%;
+  /* or 32px */
+
+  text-align: center;
+
+  color: #455880;
+}
+.person-testimony p {
+  width: 200px;
+  height: 170px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  /* or 32px */
+
+  color: #455880;
+  margin-bottom: 60px;
+}
+.person-testimony {
+  height: 400px;
+  border: 1px solid rgba(69, 88, 128, 0.2);
+  border-radius: 4px;
+}
+.testimony-wrapper {
+  padding-bottom: 150px;
+}
+/* Testimony styling Ends*/
+/* Launch-wrapper starts */
+.launch-wrapper {
+  width: 100%;
+  height: 200px;
+  background-color: #3751ff;
+}
+.launch {
+  padding: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.launch header {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 40px;
+  /* or 125% */
+  margin-left: 60px;
+  color: #ffffff;
+  width: 27%;
+}
+.launch .get-in-touch button {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  /* or 20px */
+  margin-left: 75px;
+  text-align: center;
+
+  color: #455880;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+  border: none;
+}
+.launch .get-in-touch p {
+  font-size: 16px;
+  line-height: 125%;
+  /* identical to box height, or 20px */
+
+  text-align: left;
+
+  color: #dfe0eb;
+}
+.get-in-touch {
+  width: 30%;
+}
+/* Launch-wrapper ends */
+/* footer starts */
+.footer-wrapper {
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: center; */
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 3fr;
+  gap: 30px;
+  justify-items: center;
+}
+.footer-wrapper li {
+  list-style-type: none;
+  text-align: left;
+}
+.footer-wrapper a {
+  text-decoration: none;
+}
+.footer-wrapper .digits-footer {
+  flex-basis: 300px;
+}
+.footer-wrapper ul {
+  text-align: right;
+}
+.footer-wrapper h3 {
+  font-size: 26.1637px;
+  line-height: 100%;
+  /* identical to box height, or 26px */
+
+  color: #1e266d;
+}
+.footer-wrapper .header {
+  font-size: 26.1637px;
+  line-height: 100%;
+  /* identical to box height, or 26px */
+  margin-right: 80px;
+  color: #1e266d;
+  text-align: right;
+}
+.footer-wrapper ul li {
+  font-size: 18px;
+  line-height: 205%;
+  /* or 40px */
+  font-weight: 400;
+  color: #455880;
+}
+.resources .icons {
+  display: flex;
+  justify-content: space-between;
+  color: #1e266d;
+  margin-left: 40px;
+  width: 200px;
+}
+.digits-footer p {
+  font-size: 18px;
+  line-height: 145%;
+  /* or 26px */
+
+  color: #455880;
+}
+/* footer ends */
